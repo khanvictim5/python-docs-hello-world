@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/prepaid-cards/card-activation/")
 def hello():
-    return "Hello, World!"
+    return "Takeover by Memon"
